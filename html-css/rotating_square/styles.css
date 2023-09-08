@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: rotateColor 4s linear infinite;
+}
+
+@keyframes rotateColor {
+  0% {
+    transform: rotate(0deg);
+    background-color: red;
+  }
+  33.33% {
+    transform: rotate(120deg);
+    background-color: orange;
+  }
+  66.66% {
+    transform: rotate(240deg);
+    background-color: green;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: red;
+  }
+}

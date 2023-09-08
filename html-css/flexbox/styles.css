@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body > * {
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  border: none;
+}
+
+main > * {
+  padding: 20px;
+  border: 1px solid #000;
+  margin: 10px;
+}
+
+.content {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
